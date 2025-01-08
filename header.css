@@ -1,0 +1,183 @@
+.header {
+  background-color: (rgba(0, 0, 0, 0.1));
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-top: 25px;
+  margin-left: -200px;
+}
+.header2{
+  background-color: (rgba(0, 0, 0, 0.1));
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-top: 100px;
+}
+.header-left-section {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+ 
+}
+.header-left-section a {
+  color: aliceblue;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration-line: underline;
+  text-shadow: 0px 0px 10px #887d7d;
+}
+#p1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+#p2 {
+  font-size: 1.8rem;
+  margin-left: 10px;
+  font-weight: 600;
+}
+@media (max-width: 800px) {
+  .header-left-section {
+    width: unset;
+  }
+}
+.header-link {
+  display: inline-block;
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.header-link:hover {
+  border: 1px solid white;
+}
+.car-logo {
+  border-radius: 10px;
+  width: 100px;
+  height: auto;
+  margin-top: 3px;
+  display: block;
+  padding-bottom: 2px;
+  margin-right: -25px;
+}
+@media (max-width: 575px) {
+  .car-logo {
+    width: 70px;
+    margin-top: 5px;
+  }
+}
+.header-middle-section {
+  width: 55%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+.search-bar {
+  width: 90%;
+  font-size: 16px;
+  height: 30px;
+  padding: 0.3rem 1.2rem;
+  border: none;
+  border-radius: 1.5rem;
+  position: relative;
+}
+.search-button {
+  position: absolute;
+  right: 392px;
+  background-color: white;
+  font-size: 1.3rem;
+  border: none;
+  width: 45px;
+  height: 39px;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.search-icon {
+  height: 22px;
+  margin-left: 2px;
+  margin-top: 3px;
+}
+.header-right-section {
+  width: 180px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: end;
+}
+.orders-link {
+  color: white;
+}
+.orders-text {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+}
+.more{
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    color: #000000; 
+    padding: 10px;
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    margin-right: 2px;
+}
+.more:hover {
+    background-color: #3682d2; 
+    color: white; 
+}
+.more:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+.search-container {
+  display: flex;
+  height: 65px;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 2);
+}
+.search-container input {
+  flex: 1;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #333;
+}
+.search-container input::placeholder {
+  color: #aaa;
+}
+.search-container button {
+  width: 50px;
+  background-color: #6200ea;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-container button i {
+  font-size: 18px;
+}

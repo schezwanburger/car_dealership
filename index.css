@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #5a5a5a;
+  color: #333;
+  overflow-x: hidden;
+}
+.header .brand-name p {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.header .car-logo {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+.hero {
+  margin-top: 75px;
+}
+.hero-img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  display: block;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+.product {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.product img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.product h3 {
+  font-size: 1.2rem;
+  color: #000000;
+  margin: 10px 0;
+}
+.product p {
+  font-size: 1rem;
+  color: #000000;
+}
+a {
+  text-decoration: none; 
+}
+.dd{
+    width: 100%;   
+    height: auto;  
+}
+.bgimg{
+   height: 80%;
+}
+.search-container {
+  display: flex;
+  height: 65px;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 2);
+}
+.search-container input {
+  flex: 1;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #333;
+}
+.search-container input::placeholder {
+  color: #aaa;
+}
+.search-container button {
+  width: 50px;
+  background-color: #6200ea;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-container button i {
+  font-size: 28px;
+}
+.bgimg {
+  position: relative;
+  overflow: hidden;
+  height: 80%;
+ 
+}
+.dd {
+  display: block; 
+  width: 100%;   
+  height: auto;  
+  position: relative;
+  bottom: 0; 
+  margin-bottom: -50px;
+}
+.bgimg::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 75px; 
+  background: linear-gradient(to top, #595959, transparent); 
+}
+.pp{
+  margin-left: -25px;
+}

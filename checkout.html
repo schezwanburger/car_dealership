@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignite Wheelz</title>
+    <link rel="icon" type="image/x-icon" href="images/car-logo.png">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="header-left-section">
+            <a href="index.html"> <img src="images/car-logo.png" alt="Logo" class="car-logo" /></a>
+           <div class="pp">
+            <a href="index.html">
+                <p id="p1">Ignite</p>
+                <p id="p2">Wheelz</p>
+            </a>
+        </div>
+        <div>
+            <button class="more" onclick="window.location.href='about.html'"><p>About</p></button> 
+        </div> 
+        <div>
+        <button class="more" onclick="window.location.href='contact.html'"><p>Contact</p></button>
+        </div>
+        </div>
+        </div>
+   
+    <div class="hero-section">
+        <div class="productHighlight">
+            <h1 class="car-name"></h1>
+            <h2 class="car-price-rating"></h2>  
+        </div>
+            <p>car Name</p>
+    </div>
+        <div class="container">
+            <div class="product-details">
+                <h1>Overview</h1>
+                <h2>Well-Equipped</h2>
+                <p> </p>
+                <div class="features-container">
+                    <div class="features">
+                        <p class="detail">Automatic</p>
+                        <p class="heading">Transmission</p>
+                    </div>
+                    <div class="features">
+                        <p class="detail">1.8L V6</p>
+                        <p class="heading">Engine</p>
+                    </div>
+                </div>
+                <div class="features-container">
+                    <div class="features">
+                        <p class="detail">Front Wheel Drive</p>
+                        <p class="heading">Drive Type</p>
+                    </div>
+                    <div class="features">
+                        <p class="detail">Sedan</p>
+                        <p class="heading">Body Type</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-container">
+                <form id="checkout-form">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" placeholder="your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Email address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Shipping Address:</label>
+                        <input type="text" id="address" placeholder="Address" required>
+                    </div>  
+                    <button type="submit">Book a call</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="logos">
+                <div>
+                    <h2 id="ignited">Ignite</h2><h2 id="cars">Wheelz</h2>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div>
+                    <label for="select">Available loactions</label>
+                    <select name="location" title="locations">
+                        <option value="delhi" default>Delhi</option>
+                        <option value="mumbai" >Mumbai</option>
+                        <option value="pune" >Pune</option>
+                        <option value="banglore" >Banglore</option>
+                        <option value="goa" >Goa</option>
+                    </select>
+                </div>
+            </div>
+            <div class="about-us ">
+                <h2> About Us </h2>    
+                <p>We are your trusted car dealership. With years of experience,
+                 we offer a diverse range of new and used cars. Our knowledgeable team provides exceptional customer service and flexible financing options.
+                  Contact us or Visit us at your nearest store.</p>
+            </div>
+            <div class="copyrights">
+                <p>Copyright <i class="fa-regular fa-copyright"></i>  2024 Ignite Wheelz pvt. Ltd.</p>
+            </div>
+        </footer>
+
+       <div id="overlay" class="display-none"></div>
+        <div id="message-box" class="display-none" >
+            <div>
+                <p id="message-content"></p>
+                <button id="close-button">Close</button>
+            </div>
+        </div>
+
+    <script src="product.js"></script>
+    <script src="checkout.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

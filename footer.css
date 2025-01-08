@@ -1,0 +1,68 @@
+footer{
+    background-color: #14283c;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    height: 245px;
+}
+
+.logos{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    font-size: 1.7rem;
+}
+.logos div{
+    display: flex;
+    align-items: center;
+}
+#ignited{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+#cars{
+    font-size: 2rem ;
+    text-decoration: underline dashed;
+}
+.logos a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.logos select{
+    margin-left: 1rem;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+}
+.logos label{
+    font-size: 1.3rem;
+}
+
+.about-us {
+    width: 80%;
+    height: 150px;
+    display: flex;
+    margin-top: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 1rem;
+}
+.about-us h2{
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+.copyrights{
+    background-color: rgb(103, 103, 103);
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    padding-top: 20px;
+}

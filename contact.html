@@ -1,0 +1,87 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-left-section">
+            <a href="index.html"> <img src="images/car-logo.png" alt="Logo" class="car-logo" /></a>
+           <div class="pp">
+            <a href="index.html">
+                <p id="p1">Ignite</p>
+                <p id="p2">Wheelz</p>
+            </a>
+        </div>
+        <div>
+            <button class="more" onclick="window.location.href='about.html'"><p>About</p></button> 
+        </div> 
+        <div>
+        <button class="more" onclick="window.location.href='contact.html'"><p>Contact</p></button>
+        </div>
+        </div>
+        </div>
+
+    <main class="main2">
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-details">
+                <p><strong>Address:</strong>C-12/2, Sector 85, Near Sector 137 Metro Station, Noida, Uttar Pradesh 201305</p>
+                <p><strong>Phone:</strong> 9814023897</p>
+                <p><strong>Email:</strong> ignitewheelz@gmail.com</p>
+                <p><strong>Hours:</strong> Mon-Fri 9am-6pm, Sat 10am-4pm</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="logos">
+            <div>
+                <h2 id="ignited">Ignite</h2><h2 id="cars">Wheelz</h2>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div>
+                <label for="select">Available loactions</label>
+                <select name="location" title="locations">
+                    <option value="delhi" default>Delhi</option>
+                    <option value="mumbai" >Mumbai</option>
+                    <option value="pune" >Pune</option>
+                    <option value="banglore" >Banglore</option>
+                    <option value="goa" >Goa</option>
+                </select>
+            </div>
+        </div>
+        <div class="about-us ">
+            <h2> About Us </h2>    
+            <p>We are your trusted car dealership. With years of experience, we offer a diverse range of new and used cars.
+                 Our knowledgeable team provides exceptional customer service and flexible financing options.
+                  Contact us or Visit us at your nearest store.</p>
+        </div>
+        <div class="copyrights">
+            <p>Copyright <i class="fa-regular fa-copyright"></i>  2024 Ignite Wheelz pvt. Ltd.</p>
+        </div>
+    </footer>
+</body>
+</html>

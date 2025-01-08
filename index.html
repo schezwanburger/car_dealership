@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignite Wheelz</title>
+    <link rel="icon" type="image/x-icon" href="images/car-logo.png">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="header-left-section">
+            <a href="index.html"> <img src="images/car-logo.png" alt="Logo" class="car-logo" /></a>
+           <div class="pp">
+            <a href="index.html">
+                <p id="p1">Ignite</p>
+                <p id="p2">Wheelz</p>
+            </a>
+        </div>
+        <div>
+            <button class="more" onclick="window.location.href='about.html'"><p>About</p></button> 
+            </div> 
+            <div>
+            <button class="more" onclick="window.location.href='contact.html'"><p>Contact</p></button>
+        </div>
+        </div>
+        </div>
+    <div class="header2">
+        <div class="header-middle-section">
+            <div class="search-container">
+                <input type="text" placeholder="Search here..." data-search>
+                <button>
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+        </div>
+    </div>
+    <div class="bgimg">
+        <img src="images/homebase.png" alt="dd" class="dd">
+    </div>
+
+    <div class="product-container" id="product-container"></div>
+
+    <footer>
+        <div class="logos">
+            <div>
+                <h2 id="ignited">Ignite</h2><h2 id="cars">Wheelz</h2>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div>
+                <label for="select">Available loactions</label>
+                <select name="location" title="locations">
+                    <option value="delhi" default>Delhi</option>
+                    <option value="mumbai" >Mumbai</option>
+                    <option value="pune" >Pune</option>
+                    <option value="banglore" >Banglore</option>
+                    <option value="goa" >Goa</option>
+                </select>
+            </div>
+        </div>
+        <div class="about-us ">
+            <h2> About Us </h2>    
+            <p>We are your trusted car dealership. With years of experience, we offer a diverse range of new and used cars.
+             Our knowledgeable team provides exceptional customer service and flexible financing options.
+              Contact us or Visit us at your nearest store.</p>
+        </div>
+        <div class="copyrights">
+            <p>Copyright <i class="fa-regular fa-copyright"></i>  2024 Ignite Wheelz pvt. Ltd.</p>
+        </div>
+    </footer>
+    <script src="product.js"></script>
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+    
+    
+</body>
+</html>
